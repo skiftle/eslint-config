@@ -6,6 +6,7 @@
   "types": "./index.d.ts",
   "exports": "./index.js",
   "files": ["index.js", "base.js", "react.js", "index.d.ts"],
+  "packageManager": "pnpm@9.11.0",
   "keywords": ["eslint", "eslintconfig", "skiftle"],
   "author": "Skiftle",
   "license": "MIT",
