@@ -1,0 +1,32 @@
+{
+  "name": "@skiftle/eslint-config",
+  "version": "0.1.0",
+  "description": "Shared ESLint configuration for Skiftle projects",
+  "type": "module",
+  "types": "./index.d.ts",
+  "exports": "./index.js",
+  "files": ["index.js", "base.js", "react.js", "index.d.ts"],
+  "keywords": ["eslint", "eslintconfig", "skiftle"],
+  "author": "Skiftle",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skiftle/eslint-config.git"
+  },
+  "peerDependencies": {
+    "eslint": ">=9"
+  },
+  "dependencies": {
+    "@eslint/js": "9.39.3",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-import-resolver-typescript": "4.4.4",
+    "eslint-plugin-import-x": "4.16.1",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-perfectionist": "5.6.0",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "eslint-plugin-react-refresh": "0.5.2",
+    "globals": "17.3.0",
+    "typescript-eslint": "8.56.1"
+  }
+}
