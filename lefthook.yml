@@ -1,0 +1,4 @@
+pre-push:
+  commands:
+    format:
+      run: pnpm exec prettier --check "*.js" "*.d.ts"
